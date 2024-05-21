@@ -85,15 +85,16 @@ docker version
 docker image ls
 ```
 
-```bash
-docker ps
-```
-
 </details>
 
 * Lister les conteneurs en cours d'exécution sur la machine de deux manières
 
 <details><summary>Correction</summary>
+
+
+```bash
+docker ps
+```
 
 ```bash
 docker container ls
