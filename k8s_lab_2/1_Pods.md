@@ -169,7 +169,7 @@ spec:
 Une astuce pour avoir ce fichier YAML est d'exécuter la commande impérative correspondante avec l'option `--dry-run=client -o yaml`
 
 ```bash
-kubectl run tools --image busybox -n k8s-lab --dry-run=client -o yaml -- sleep 1500 > pod-tools2.yml
+kubectl run tools2 --image busybox -n k8s-lab --dry-run=client -o yaml -- sleep 1500 > pod-tools2.yml
 ```
 
 ```bash
